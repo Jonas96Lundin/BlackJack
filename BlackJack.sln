@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack", "BlackJack\Blac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCardLib", "GameCardLib\GameCardLib.csproj", "{03EC9728-744B-4566-83D1-93262C650E1C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilitiesLib", "..\..\Libraries\UtilitiesLib\UtilitiesLib.csproj", "{275C2D90-C3FC-4DA3-92D0-A45739923A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJackDAL", "BlackJackDAL\BlackJackDAL.csproj", "{2D0CE216-3E5F-4909-B709-EC5663BE649D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJackDAL", "BlackJackDAL\BlackJackDAL.csproj", "{2D0CE216-3E5F-4909-B709-EC5663BE649D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilitiesLib", "UtilitiesLib\UtilitiesLib.csproj", "{A89051F3-0034-40E6-88A9-9536A41F627F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{03EC9728-744B-4566-83D1-93262C650E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03EC9728-744B-4566-83D1-93262C650E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03EC9728-744B-4566-83D1-93262C650E1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{275C2D90-C3FC-4DA3-92D0-A45739923A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{275C2D90-C3FC-4DA3-92D0-A45739923A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{275C2D90-C3FC-4DA3-92D0-A45739923A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{275C2D90-C3FC-4DA3-92D0-A45739923A13}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D0CE216-3E5F-4909-B709-EC5663BE649D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D0CE216-3E5F-4909-B709-EC5663BE649D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D0CE216-3E5F-4909-B709-EC5663BE649D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D0CE216-3E5F-4909-B709-EC5663BE649D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89051F3-0034-40E6-88A9-9536A41F627F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89051F3-0034-40E6-88A9-9536A41F627F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89051F3-0034-40E6-88A9-9536A41F627F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89051F3-0034-40E6-88A9-9536A41F627F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

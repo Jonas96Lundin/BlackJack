@@ -62,8 +62,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Libraries\UtilitiesLib\UtilitiesLib.csproj" />
     <ProjectReference Include="..\BlackJackDAL\BlackJackDAL.csproj" />
+    <ProjectReference Include="..\UtilitiesLib\UtilitiesLib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

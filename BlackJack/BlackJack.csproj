@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Libraries\UtilitiesLib\UtilitiesLib.csproj" />
     <ProjectReference Include="..\GameCardLib\GameCardLib.csproj" />
+    <ProjectReference Include="..\UtilitiesLib\UtilitiesLib.csproj" />
   </ItemGroup>
 
 </Project>
