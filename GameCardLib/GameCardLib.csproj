@@ -1,0 +1,125 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Cards\AceClubs.png" />
+    <None Remove="Cards\AceDiamonds.png" />
+    <None Remove="Cards\AceHearts.png" />
+    <None Remove="Cards\AceSpades.png" />
+    <None Remove="Cards\BacksideBackside.png" />
+    <None Remove="Cards\EightClubs.png" />
+    <None Remove="Cards\EightDiamonds.png" />
+    <None Remove="Cards\EightHearts.png" />
+    <None Remove="Cards\EightSpades.png" />
+    <None Remove="Cards\FiveClubs.png" />
+    <None Remove="Cards\FiveDiamonds.png" />
+    <None Remove="Cards\FiveHearts.png" />
+    <None Remove="Cards\FiveSpades.png" />
+    <None Remove="Cards\FourClubs.png" />
+    <None Remove="Cards\FourDiamonds.png" />
+    <None Remove="Cards\FourHearts.png" />
+    <None Remove="Cards\FourSpades.png" />
+    <None Remove="Cards\JackClubs.png" />
+    <None Remove="Cards\JackDiamonds.png" />
+    <None Remove="Cards\JackHearts.png" />
+    <None Remove="Cards\JackSpades.png" />
+    <None Remove="Cards\KingClubs.png" />
+    <None Remove="Cards\KingDiamonds.png" />
+    <None Remove="Cards\KingHearts.png" />
+    <None Remove="Cards\KingSpades.png" />
+    <None Remove="Cards\NineClubs.png" />
+    <None Remove="Cards\NineDiamonds.png" />
+    <None Remove="Cards\NineHearts.png" />
+    <None Remove="Cards\NineSpades.png" />
+    <None Remove="Cards\QueenClubs.png" />
+    <None Remove="Cards\QueenDiamonds.png" />
+    <None Remove="Cards\QueenHearts.png" />
+    <None Remove="Cards\QueenSpades.png" />
+    <None Remove="Cards\SevenClubs.png" />
+    <None Remove="Cards\SevenDiamonds.png" />
+    <None Remove="Cards\SevenHearts.png" />
+    <None Remove="Cards\SevenSpades.png" />
+    <None Remove="Cards\SixClubs.png" />
+    <None Remove="Cards\SixDiamonds.png" />
+    <None Remove="Cards\SixHearts.png" />
+    <None Remove="Cards\SixSpades.png" />
+    <None Remove="Cards\TenClubs.png" />
+    <None Remove="Cards\TenDiamonds.png" />
+    <None Remove="Cards\TenHearts.png" />
+    <None Remove="Cards\TenSpades.png" />
+    <None Remove="Cards\ThreeClubs.png" />
+    <None Remove="Cards\ThreeDiamonds.png" />
+    <None Remove="Cards\ThreeHearts.png" />
+    <None Remove="Cards\ThreeSpades.png" />
+    <None Remove="Cards\TwoClubs.png" />
+    <None Remove="Cards\TwoDiamonds.png" />
+    <None Remove="Cards\TwoHearts.png" />
+    <None Remove="Cards\TwoSpades.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\UtilitiesLib\UtilitiesLib.csproj" />
+    <ProjectReference Include="..\BlackJackDAL\BlackJackDAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Cards\AceClubs.png" />
+    <Resource Include="Cards\AceDiamonds.png" />
+    <Resource Include="Cards\AceHearts.png" />
+    <Resource Include="Cards\AceSpades.png" />
+    <Resource Include="Cards\BacksideBackside.png" />
+    <Resource Include="Cards\EightClubs.png" />
+    <Resource Include="Cards\EightDiamonds.png" />
+    <Resource Include="Cards\EightHearts.png" />
+    <Resource Include="Cards\EightSpades.png" />
+    <Resource Include="Cards\FiveClubs.png" />
+    <Resource Include="Cards\FiveDiamonds.png" />
+    <Resource Include="Cards\FiveHearts.png" />
+    <Resource Include="Cards\FiveSpades.png" />
+    <Resource Include="Cards\FourClubs.png" />
+    <Resource Include="Cards\FourDiamonds.png" />
+    <Resource Include="Cards\FourHearts.png" />
+    <Resource Include="Cards\FourSpades.png" />
+    <Resource Include="Cards\JackClubs.png" />
+    <Resource Include="Cards\JackDiamonds.png" />
+    <Resource Include="Cards\JackHearts.png" />
+    <Resource Include="Cards\JackSpades.png" />
+    <Resource Include="Cards\KingClubs.png" />
+    <Resource Include="Cards\KingDiamonds.png" />
+    <Resource Include="Cards\KingHearts.png" />
+    <Resource Include="Cards\KingSpades.png" />
+    <Resource Include="Cards\NineClubs.png" />
+    <Resource Include="Cards\NineDiamonds.png" />
+    <Resource Include="Cards\NineHearts.png" />
+    <Resource Include="Cards\NineSpades.png" />
+    <Resource Include="Cards\QueenClubs.png" />
+    <Resource Include="Cards\QueenDiamonds.png" />
+    <Resource Include="Cards\QueenHearts.png" />
+    <Resource Include="Cards\QueenSpades.png" />
+    <Resource Include="Cards\SevenClubs.png" />
+    <Resource Include="Cards\SevenDiamonds.png" />
+    <Resource Include="Cards\SevenHearts.png" />
+    <Resource Include="Cards\SevenSpades.png" />
+    <Resource Include="Cards\SixClubs.png" />
+    <Resource Include="Cards\SixDiamonds.png" />
+    <Resource Include="Cards\SixHearts.png" />
+    <Resource Include="Cards\SixSpades.png" />
+    <Resource Include="Cards\TenClubs.png" />
+    <Resource Include="Cards\TenDiamonds.png" />
+    <Resource Include="Cards\TenHearts.png" />
+    <Resource Include="Cards\TenSpades.png" />
+    <Resource Include="Cards\ThreeClubs.png" />
+    <Resource Include="Cards\ThreeDiamonds.png" />
+    <Resource Include="Cards\ThreeHearts.png" />
+    <Resource Include="Cards\ThreeSpades.png" />
+    <Resource Include="Cards\TwoClubs.png" />
+    <Resource Include="Cards\TwoDiamonds.png" />
+    <Resource Include="Cards\TwoHearts.png" />
+    <Resource Include="Cards\TwoSpades.png" />
+  </ItemGroup>
+
+</Project>

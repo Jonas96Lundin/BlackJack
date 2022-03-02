@@ -1,0 +1,20 @@
+﻿<Window x:Class="BlackJack.NewGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlackJack"
+        mc:Ignorable="d"
+        Title="NewGame" Height="214" Width="322">
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <Grid>
+        <Label Content="How many decks:" HorizontalAlignment="Center" Margin="10,18,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left"/>
+        <TextBox x:Name="tbNGDecks" HorizontalAlignment="Center" Margin="10,49,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Label Content="How many players:" HorizontalAlignment="Center" Margin="10,73,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbNGPlayers" HorizontalAlignment="Center" Margin="10,103,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="buttonNGStart" Content="Start Game" HorizontalAlignment="Center" Margin="0,139,0,0" VerticalAlignment="Top" Height="22" Width="88" Click="buttonNGStart_Click"/>
+
+    </Grid>
+</Window>
