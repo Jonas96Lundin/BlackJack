@@ -3,6 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
 # User-specific files
 *.rsuser
 *.suo
@@ -17,7 +18,7 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
+#[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -27,7 +28,7 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
+#[Bb]in/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
@@ -396,3 +397,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Do not ignore
+/BlackJack/bin/Debug/net5.0-windows/*
+!/BlackJack/bin/Debug/net5.0-windows/BlackJackDb.mdf
+!/BlackJack/bin/Debug/net5.0-windows/BlackJackDb_log.ldf
+/BlackJackDAL/bin*
+/GameCardLib/bin*
+/UtilitiesLib/bin*
+
+
+#!*/BlackJack/bin/Debug/net5.0-windows/BlackJackDb.mdf
+#!*/BlackJack/bin/Debug/net5.0-windows/BlackJackDb_log.ldf
+#!BlackJackDb.mdf
