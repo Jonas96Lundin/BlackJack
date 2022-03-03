@@ -16,14 +16,8 @@ namespace BlackJackDAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=BlackJackDb;Trusted_Connection=True");
-            /*SqlConnection conConnect = new SqlConnection*/
-            //optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=MAU\C#\BlackJack\BlackJackDb.mdf;Integrated Security=True");
-            //optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=BlackJack\BlackJackDb.mdf;Trusted_Connection=True");
-            //optionsBuilder.UseSqlServer(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Admin\Documents\MAU\C#\BlackJack\BlackJackDb.mdf;Integrated Security=True;Connect Timeout=30");
             AppDomain.CurrentDomain.SetData("DataDirectory", Directory.GetCurrentDirectory());
             optionsBuilder.UseSqlServer(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename =|DataDirectory|\BlackJackDb.mdf;Integrated Security=True;Connect Timeout=30");
-            //optionsBuilder.UseSqlServer("Data Source = (LocalDb)\v11.0; Initial Catalog = Things; Integrated Security = SSPI");
         }
     }
 }
